@@ -1,0 +1,1541 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Cogoland API",
+    "version": "0.1.0",
+    "description": "Unofficial reverse-engineered API for Cogoland."
+  },
+  "servers": [
+    {
+      "url": "https://api.nfcogos.com"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    }
+  },
+  "paths": {
+    "/address-verification": {
+      "get": {
+        "summary": "/address-verification",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/admin/breeders": {
+      "get": {
+        "summary": "/admin/breeders",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/admin/comments": {
+      "get": {
+        "summary": "/admin/comments",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/admin/feed": {
+      "get": {
+        "summary": "/admin/feed",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/admin/places": {
+      "get": {
+        "summary": "/admin/places",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/admin/strains": {
+      "get": {
+        "summary": "/admin/strains",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/admin/users": {
+      "get": {
+        "summary": "/admin/users",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/auth/apple": {
+      "post": {
+        "summary": "/auth/apple",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/auth/apple/callback": {
+      "get": {
+        "summary": "/auth/apple/callback",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/auth/authorize": {
+      "post": {
+        "summary": "/auth/authorize",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/auth/google": {
+      "post": {
+        "summary": "/auth/google",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/auth/revoke": {
+      "post": {
+        "summary": "/auth/revoke",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/auth/token": {
+      "post": {
+        "summary": "/auth/token",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/badges": {
+      "get": {
+        "summary": "/badges",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/banner": {
+      "get": {
+        "summary": "/banner",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/blocked": {
+      "get": {
+        "summary": "/blocked",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/blockers": {
+      "get": {
+        "summary": "/blockers",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/breeders": {
+      "get": {
+        "summary": "/breeders",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/chats": {
+      "get": {
+        "summary": "/chats",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/chats/stats": {
+      "get": {
+        "summary": "/chats/stats",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/checkin": {
+      "post": {
+        "summary": "/checkin",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/checkins": {
+      "get": {
+        "summary": "/checkins",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/claimables": {
+      "get": {
+        "summary": "/claimables",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/claimers": {
+      "get": {
+        "summary": "/claimers",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/comments": {
+      "get": {
+        "summary": "/comments",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/custom-badges": {
+      "get": {
+        "summary": "/custom-badges",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/feature": {
+      "get": {
+        "summary": "/feature",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/features": {
+      "get": {
+        "summary": "/features",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/feed": {
+      "get": {
+        "summary": "/feed",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/firebase-token": {
+      "post": {
+        "summary": "/firebase-token",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/followers": {
+      "get": {
+        "summary": "/followers",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/followers/stats": {
+      "get": {
+        "summary": "/followers/stats",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/holders": {
+      "get": {
+        "summary": "/holders",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/image": {
+      "get": {
+        "summary": "/image",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/likes": {
+      "post": {
+        "summary": "/likes",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/market/users": {
+      "get": {
+        "summary": "/market/users",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/media": {
+      "post": {
+        "summary": "/media",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/media-orientation": {
+      "post": {
+        "summary": "/media-orientation",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/messages": {
+      "get": {
+        "summary": "/messages",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/notifications/count": {
+      "get": {
+        "summary": "/notifications/count",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/permissions": {
+      "post": {
+        "summary": "/permissions",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/places": {
+      "get": {
+        "summary": "/places",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/posts": {
+      "post": {
+        "summary": "/posts",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/products": {
+      "get": {
+        "summary": "/products",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/profile": {
+      "get": {
+        "summary": "/profile",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/profile-image": {
+      "post": {
+        "summary": "/profile-image",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/profile/banner": {
+      "post": {
+        "summary": "/profile/banner",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/profile/eula": {
+      "get": {
+        "summary": "/profile/eula",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/profile/followers": {
+      "get": {
+        "summary": "/profile/followers",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/profile/following": {
+      "get": {
+        "summary": "/profile/following",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/profile/image": {
+      "post": {
+        "summary": "/profile/image",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/profile/name": {
+      "patch": {
+        "summary": "/profile/name",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/profile/username": {
+      "patch": {
+        "summary": "/profile/username",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/recommendations": {
+      "get": {
+        "summary": "/recommendations",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/recommended-breeders": {
+      "get": {
+        "summary": "/recommended-breeders",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/recommended-strains": {
+      "get": {
+        "summary": "/recommended-strains",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/recommended-users": {
+      "get": {
+        "summary": "/recommended-users",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/replies": {
+      "get": {
+        "summary": "/replies",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/reports": {
+      "post": {
+        "summary": "/reports",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/strains": {
+      "get": {
+        "summary": "/strains",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/trk": {
+      "post": {
+        "summary": "/trk",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/users": {
+      "get": {
+        "summary": "/users",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/v2/feed": {
+      "get": {
+        "summary": "/v2/feed",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/v2/notifications": {
+      "get": {
+        "summary": "/v2/notifications",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/verified-identity": {
+      "get": {
+        "summary": "/verified-identity",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/videos": {
+      "get": {
+        "summary": "/videos",
+        "description": "Reverse-engineered endpoint. Request and response bodies were not recovered.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    }
+  }
+}
